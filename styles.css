@@ -25,6 +25,7 @@ nav {
 section {
     text-align: center;
     border: 1px, solid, #23ed7e;
+    padding: 10px;
 }
 
 .grid-container {
@@ -84,6 +85,12 @@ footer {
 }
 
 input {
-    background-color: #000000;
+    background-color: black;
     border: solid, 1px, #23ed7e;
+}
+
+button {
+    background-color: black;
+    font-size: 20px;
+    outline: #23ed7e;
 }

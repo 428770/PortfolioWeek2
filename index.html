@@ -16,11 +16,23 @@
         </div>
         <div class="grid-item2">
             <p>please select your desired tip:</p>
+            <button onclick="getTip(0)">0%</button>
+            <button onclick="getTip(5)">5%</button>
+            <button onclick="getTip(10)">10%</button>
+            <button onclick="getTip(15)">15%</button>
+            <button onclick="getTip(20)">20%</button>
         </div>
         <div class="grid-item3">
             <p>please enter the number of people to split the bill between:</p>
+            <input id="inputPeople" type="number">
         </div>
     </div>
+    <br>
+    <section>ready to split the bill?<br>
+        <br><button type="button" id="splitbill">click here!</button>
+    </section>
+    <br>
+    <p id="output"></p>
     <script src="functions.js"></script>
 </body>
 </html>
